@@ -1,10 +1,10 @@
 # Introduction
-This theme is adapted from PyTorch Sphinx Theme. We follow the [MMLab version](https://github.com/open-mmlab/pytorch_sphinx_theme#egg=pytorch_sphinx_theme) of PyTorch Sphinx Theme to add more configurations.
+This theme is adapted from PyTorch Sphinx Theme, with more configurations allowed.
 
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/Westlake-AI/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
@@ -20,7 +20,7 @@ copybutton_prompt_is_regexp = True
 ```
 
 ### Header Logo
-The default header logo is the log of CIFARI LAB. Each repo should customize the logo by overriding the provided css class.
+The header logo is OpenMMLab by default. Each repo should customize the logo by overriding the provided css class.
 
 We suggest putting all the html resources to `docs/_static`. First put the logo
 to `docs/_static/images/logo.png`, then write the following snippet to 
